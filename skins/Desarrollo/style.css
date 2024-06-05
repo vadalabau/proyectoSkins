@@ -1,0 +1,371 @@
+
+h1 {
+  font-size:50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(232, 230, 237);
+  text-align:center;
+  margin: 20px;
+}
+
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #a7a7a7f2;
+  margin-top: 220px;
+}
+
+p.sinapsis {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #a7a7a7f2;
+  font-size: 20px;
+}
+
+/*.topnav {
+  background: linear-gradient(-45deg, #0b0b0b, #181818, #4d4d4d, #6b6b6b);
+  overflow: hidden;
+  position: relative;
+  z-index: 100;
+  display: block;
+  unicode-bidi: isolate;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 600;
+  margin-bottom: -20px;
+  animation: gradient 10s ease infinite;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: white;
+}*/
+
+.topnav {
+  background: linear-gradient(-45deg, #0b0b0b  , #181818  , #4d4d4d  , #6b6b6b , #cecece );
+  overflow: hidden;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 24px;
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  margin-bottom: 10px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #a7a7a7f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #bbb9b9;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #000000;
+  color: #a7a7a7f2;
+}
+
+footer {
+  color: #a7a7a7f2;
+}
+
+ ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(224, 222, 228);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+body {
+  margin: 0px;
+}
+
+.patterns {
+  width: 100vw;
+  height: 100vw;
+}
+
+body {
+  background: linear-gradient(-45deg, #0b0b0b, #181818, #4d4d4d, #6b6b6b, #716c72);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+      background-position: 0% 50%;
+  }
+
+  50% {
+      background-position: 100% 50%;
+  }
+
+  100% {
+      background-position: 0% 50%;
+  }
+}
+
+
+.principal {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 5px;
+  display: table-row;
+  }
+
+body.actores{
+  background-image: linear-gradient(to right, rgba(255, 0, 30, 0), rgb(116, 113, 113));
+  color: rgb(128, 0, 6);
+  font-family: Arial, sans-serif;
+  }
+
+.act {
+  font-size:50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(141, 14, 14);
+  text-align:center;
+  }
+
+.pActores {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+  }
+
+body.temp{
+  background-color: rgb(173, 230, 177);
+  color: rgb(0, 0, 0);
+  font-family: Arial, sans-serif;
+  }
+
+.temporadasAc {
+  background-color: red; 
+  color: #ffffff; 
+}
+
+.temporadasAc ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(93, 0, 0); 
+}
+
+.temporadasAc ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.temporadasAc ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.temporadasAc ul li a:hover {
+  background-color: darkred; /
+}
+
+
+#tonyAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
+}
+.tonyText b {
+  margin-bottom: 0;
+}
+.tonyText p {
+  margin-top: 0;
+}
+#cassieAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
+}
+
+.cassieText b {
+  margin-bottom: 0;
+}
+.cassieText p {
+  margin-top: 0;
+}
+
+#michelleAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
+}
+
+.michelleText b {
+  margin-bottom: 0;
+}
+
+.michelleText p {
+  margin-top: 0;
+}
+
+#sidAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
+}
+
+.sidText b {
+  margin-bottom: 0;
+}
+
+.sidText p {
+  margin-top: 0;
+}
+
+#chrisAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
+}
+
+.chrisText b {
+  margin-bottom: 0;
+}
+
+.chrisText p {
+  margin-top: 0;
+}
+
+#maxxieAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
+}
+
+.maxxieText b {
+  margin-bottom: 0;
+}
+
+.maxxieText p {
+  margin-top: 0;
+}
+
+#jalAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
+}
+
+.jalText b {
+  margin-bottom: 0;
+}
+
+.jalText p {
+  margin-top: 0;
+}
+
+#anwarAc {
+  display: flex;
+  width: 175px;
+  height: 225px; 
+}
+
+.anwarText b {
+  margin-bottom: 0;
+}
+
+.anwarText p {
+  margin-top: 0;
+}
+
+.contenedor-imagenes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fila1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.fila2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.fila img {
+  width: 200px;
+  height: auto;
+  margin-right: 10px;
+  border-radius: 2%;
+  opacity: .9;
+}
+
+section {
+  display: flex;
+  width: 2000px;
+  height: 500px;
+}
+
+section img {
+  height: 700px;
+  width: 300px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .75;
+  transition: .6s ease;
+  justify-content: center;
+  display: block;  
+}
+
+section img:hover {
+  cursor: crosshair;
+  width: 450px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.img-container {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  height: 50vh; 
+}
